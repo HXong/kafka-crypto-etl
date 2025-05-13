@@ -1,3 +1,9 @@
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![Kafka](https://img.shields.io/badge/Kafka-Streaming-black?logo=apachekafka)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue?logo=postgresql)
+![Grafana](https://img.shields.io/badge/Grafana-Dashboard-orange?logo=grafana)
+![Docker](https://img.shields.io/badge/Docker-Compose-blue?logo=docker)
+
 # Real-Time Crypto ETL Pipeline with Kafka, PostgreSQL & Grafana
 
 A real-time data pipeline that streams live cryptocurrency market data from the CoinGecko API into Apache Kafka, processes it using Python, stores it in PostgreSQL, and visualizes price trends using Grafana.
@@ -30,15 +36,17 @@ A real-time data pipeline that streams live cryptocurrency market data from the 
 
 ## Folder Structure
 
+```plaintext
 kafka-crypto-etl/
-├── kafka_app/ # Producer and consumer scripts
-├── config/ # DB and Kafka configs
-├── db/ # SQL table definitions
-├── dashboards/ # Grafana/Superset notes (optional)
+├── kafka_app/               # Producer and consumer scripts
+├── config/                  # DB and Kafka configs
+├── db/                      # SQL table definitions
+├── dashboards/              # Grafana/Superset notes (optional)
 ├── docker-compose.yml
 ├── requirements.txt
-├── .env # (optional: API keys or config vars)
+├── .env                     # (optional: API keys or config vars)
 └── README.md
+```
 
 ---
 
@@ -128,6 +136,6 @@ ORDER BY timestamp
 ---
 
 ## Maintainer
-Hong Xun
-www.linkedin.com/in/onghongxun
-https://github.com/HXong/HXong
+
+**Hong Xun**  
+[LinkedIn](https://www.linkedin.com/in/onghongxun) · [GitHub](https://github.com/HXong)
